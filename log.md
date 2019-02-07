@@ -54,7 +54,7 @@
 `SP_OAUTH2 = oauth2.SpotifyOAuth(client_id = CLIENT_ID, client_secret = CLIENT_SECRET, redirect_uri = "REDIRECT_URI", scope = SCOPE, cache_path = CACHE)`
 
 **Links:**
-* [TopPlaylist](https://www.github.com/thebinsubtleissubtle/topPlaylist)
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 * [Traversy Media (youtube)](https://www.youtube.com/user/TechGuyWeb)
 
 
@@ -68,7 +68,7 @@
 * Made tables with tracks and artists items. (It's still ugly).
 
 **Links:**
-* [TopPlaylist](https://www.github.com/thebinsubtleissubtle/topPlaylist)
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 * [Traversy Media (youtube)](https://www.youtube.com/user/TechGuyWeb)
 
 ### Day 5: February 4, 2019
@@ -95,7 +95,7 @@
 * Had trouble in paging object model when implementing to the web app.
 
 **Links:**
-* [TopPlaylist](https://www.github.com/thebinsubtleissubtle/topPlaylist)
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 * [Traversy Media (youtube)](https://www.youtube.com/user/TechGuyWeb)
 
 ### Day 7: February 6, 2019
@@ -110,14 +110,19 @@
 
 
 **Links:**
-* [TopPlaylist](https://www.github.com/thebinsubtleissubtle/topPlaylist)
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 * [Traversy Media (youtube)](https://www.youtube.com/user/TechGuyWeb)
 
 ### Day 8: February 7, 2019
 
 **Today's Progress**:
-* 
+* I made the filtering list on `search.html` and made `most_played.js`
 
 **Thoughts:**
+* I made `most_played.js` due to a fact that if I combined the scripts from `index.html` and `most_played.html`, the scripts won't work properly. 
+* On `most-played.js`, I made a client-side filtering to make sure that the whole page doesn't reload after submitting the form. I used the `e.preventDefault()` to prevent the form from posting the data. The filtering is good. I want to do some animations later on.
+* On `main.py`, I just put `@app.route("/most_played/", method = "POST")` because there is a form. But if I didn't do that, it returns an error 405 page.
+* I just hide the tables in `style.css`. Hiding it on-load is a pain in the ass.
 
 **Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
