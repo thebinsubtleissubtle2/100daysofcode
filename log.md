@@ -126,3 +126,15 @@
 
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
+### Day 9: February 8, 2019
+
+**Today's Progress**:
+* I fixed the search navigation buttons and added a `search.js` to integrate with `search.html`
+* I made the `get_offset_data()` in `main.py` to be passed to `search.js` via a hidden paragraph in  `search.html`
+
+**Thoughts:**
+* I can't figure out how to pass JSON data as a parameter to a Javascript file, so I made the hidden field to `search.html` then parse it to JSON because the `offset_data` that I put in `#offset-data` is a raw text.
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
