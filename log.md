@@ -138,3 +138,15 @@
 
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
+### Day 10: February 9, 2019
+
+**Today's Progress**:
+* I continued the CSS on `search.html` 
+ 
+**Thoughts:**
+* I added transitions on `index.html` search bar.
+* I put borders first on every wrapper. I wrapped every part of search results using `.track-results-wrapper`, `.artist-results-wrapper`, `.album-results-wrapper`. And then I wrapped every query using `.track-result`, then I wrapped every element. It's just the `track` element.
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
