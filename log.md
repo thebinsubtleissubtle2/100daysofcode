@@ -150,3 +150,17 @@
 
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
+### Day 11: February 10, 2019
+
+**Today's Progress**:
+* Added some animations on `search.html`
+* Fixed the default value of `#search-type`. I added the `get_type` variable, which is a dictionary (`dict()`) that gets the `type` and turns it into a JSON variable. Once it passed to the template and put in a hidden `<p>`, the `search.js` processes the JSON variable passed by the template, and changes the value of the default value of the select form `#search-type`.
+* Started working the CSS of `most_played.html`
+
+**Thoughts:**
+* I always had trouble on getting `spotify.client.SpotifyException`. It says that `The access token is expired`, so it always throws an error (`unauthorized url` and `spotipy.client.SpotifyException`). But when I reset the server, the error is gone. 
+* While I'm fixing the `search(keyword, type)` function, looping it and passing `None` to `type`. And when the `spotipy.client.SpotifyException` is thrown, the `NameError` is thrown too. I'm still trying to solve this though. 
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
