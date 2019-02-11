@@ -169,7 +169,7 @@
 * Started learning Flask through ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
 
 **Thoughts:**
-* I though BottlePy and Flask the same because they are both web microframeworks, then I realized Flask has extensions like form validations (flask-wtf), Jinja templating (I mean *Jinja Templating*), bootstrap (flask-bootstrap), and moment.js, which is a Javascript tool for getting the current time and date. Going back to Jinja templating, it is very easy to work with, instead of repeating every *goddamn boilerplate HTML*. It makes life easier by using `{% block %}`. Then I realized, my [TopPlaylist]((https://www.github.com/thebinsubtleissubtle2/topPlaylist) has a lot of boilerplate code. I'll save that for future projects from now on.
+* I though BottlePy and Flask the same because they are both web microframeworks, then I realized Flask has extensions like form validations (flask-wtf), Jinja templating (I mean *Jinja Templating*), bootstrap (flask-bootstrap), and moment.js, which is a Javascript tool for getting the current time and date. Going back to Jinja templating, it is very easy to work with, instead of repeating every *goddamn boilerplate HTML*. It makes life easier by using `{% block %}`. Then I realized, my [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist) has a lot of boilerplate code. I'll save that for future projects from now on.
 * I got a job interview tomorrow, does it break my streak? Doing something like 3 hours/day? Damn I'm not ready yet.
 
 **Links**
