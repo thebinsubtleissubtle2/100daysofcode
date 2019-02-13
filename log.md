@@ -165,6 +165,8 @@
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 11: February 11, 2019
+
 **Today's Progress**:
 * Started learning Flask through ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
 
@@ -175,7 +177,7 @@
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
-### Day 13: February 13, 2019
+### Day 12: February 13, 2019
 
 **Today's Progress**:
 * On chapters 5 & 6 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
