@@ -175,3 +175,15 @@
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 13: February 13, 2019
+
+**Today's Progress**:
+* On chapters 5 & 6 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* I learned how to set up the database first by SQLite. It was hard at first, considering that I have little knowledge about SQLite. Then I got into trouble when querying the user roles using `user_role.users.order_by(User.username).all()`. When I added `lazy = "dynamic"` into my `Role.users`, the query returns `AttributeError: 'InstrumentedList' object has no attribute 'all'`. Then when I restarted the IDLE, it works!
+* An error spotted when I send email everytime the system detects a new user, then I realized that I typed `sneder` instead of `sender`
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
