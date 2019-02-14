@@ -165,7 +165,7 @@
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
-### Day 11: February 11, 2019
+### Day 12: February 11, 2019
 
 **Today's Progress**:
 * Started learning Flask through ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
@@ -177,7 +177,7 @@
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
-### Day 12: February 13, 2019
+### Day 13: February 13, 2019
 
 **Today's Progress**:
 * On chapters 5 & 6 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
@@ -188,4 +188,18 @@
 
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 14: February 14, 2019
+
+**Today's Progress**:
+* Made Spotify login status.
+* Changed footers on all pages.
+* Added "`No preview available`" on `search.html` 
+
+**Thoughts:**
+* I added the `global LOGIN_STATUS` on every route function because the `LOGIN_STATUS` value changes when the app redirects to another page. For example, if I go to `/verified`, the `LOGIN_STATUS` sets to `True`, but when it redirects to `/most_played`, the value changes to `False`, its default value.
+* I added the `#most-played-body` on `most_played.html`, because if I changed the background of the body to `#292823`, every page will be affected by this change.. I still can't send the footer to the bottom page of the screen, damn you footer. 
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
