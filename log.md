@@ -203,3 +203,18 @@
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 15: February 16, 2019
+
+**Today's Progress**:
+* Made some animations on `most_played.html`.
+* Learned Julia Language
+
+**Thoughts:**
+* I still can't figure out how to put the footer into the bottom of my screen. If the footer was `fixed`, the footer will stick to the bottom of the screen no matter what. If I set the footer to `absolute`, the footer will adjust to the bottom of the screen when the results shows, but it does not adjust when they are not.
+* I wrapped the images on a `<td>` so the texts will not go after the images.
+* Julia Language is easy to pick-up language. I haven't encountered `macros` throughout my programming career. It's more Pythonic except it does not focus on general OOP concepts.
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+* [Tutorial](https://www.github.com/thebinsubtleissubtle2/julia-tutorial)
+
