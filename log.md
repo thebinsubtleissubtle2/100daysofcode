@@ -218,3 +218,16 @@
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 * [Tutorial](https://www.github.com/thebinsubtleissubtle2/julia-tutorial)
 
+### Day 16: February 17, 2019
+
+**Today's Progress**:
+* Removed `#about` div in `index.html`
+* Started working on making playlists.
+
+**Thoughts:**
+* I encountered an error that is concerned with making playlist. `spotipy.client.SpotifyException: http status: 400, code:-1 - https://api.spotify.com/v1/users/iamnomusicenthusiast/playlists:` I can't make a damn playlist on my REPL code, even though it was copy-pasted from [here](https://github.com/plamere/spotipy/blob/master/examples/create_playlist.py).
+* I have problems styling the `.modal-footer`, having the `background-color` same as `.modal-header`. The close button comes first before the create playlist button.
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
