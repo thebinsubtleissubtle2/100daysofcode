@@ -231,3 +231,20 @@
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 17: February 19, 2019
+
+**Today's Progress**:
+* Made the sessions through `beaker.middleware`
+
+**Thoughts:**
+* At first, I still can't figure out how sessions work in BottlePy since it has no configurations on sessions. I thought sessions are safer than cookies, because the user data put in the forms are unsafe, because it is personal data. So, I figured out how to deal with sessions using Beaker. I tried the sample codes in Stack Overflow. I ended up with `request.session["logged_in"]` instead of putting `request.environ.get("logged_in")` to every route function. I also put this code below before the static files. 
+
+`@hook("before_request")
+def setup_request():
+	request.session = request.environ["beaker.session"]`
+
+Now I am going to work on dropdown menu bar and continue working on playlists. 
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
