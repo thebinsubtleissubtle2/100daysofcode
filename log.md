@@ -248,3 +248,17 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 18: February 20, 2019
+
+**Today's Progress**:
+* No commits today.
+
+**Thoughts:**
+* The reason that I can't make playlists on Spotify via their API is that what I used ([Spotipy](https://github.com/plamere/spotipy)) **was freaking outdated on [PyPi](https://pypi.org/project/spotipy/).** So, I uninstalled the package using `pip uninstall`, and re-installed it using the [source code](https://github.com/plamere/spotipy). Now I have to rewrite the whole program because it returns an error saying:
+
+`requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://api.spotify.com/v1/me/`
+`spotipy.client.SpotifyException: http status: 401, code:-1 - https://api.spotify.com/v1/me/:`
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
