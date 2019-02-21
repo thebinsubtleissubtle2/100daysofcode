@@ -262,3 +262,15 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 19: February 21, 2019
+
+**Today's Progress**:
+* Implementing the creation of playlists.
+
+**Thoughts:**
+* The create playlist feature finally worked! Then when I added the tracks, the program returns an error again, and I can't add tracks to playlists. So I created the `list()` variable, because the `user_playlist_top_tracks` accepts the list of `ID`s from the tracks. For each track in the `current_user_top_tracks()` variable, I add the track ID to the `list` variable.
+* On implementation, I've encountered yet another problem, styling the button that opens the modal. So, instead of the modal being in the `#search-field`, I put it on every track results before the `table` wrapper. And the modals doesn't show when I'm on `medium term` and `long term` `tracks`.
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
