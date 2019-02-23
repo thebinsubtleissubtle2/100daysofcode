@@ -274,3 +274,14 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 20: February 23, 2019
+
+**Today's Progress**:
+* Creating playlists is successfully implemented!
+
+**Thoughts:**
+* I refactored the `filterList()` code in `most_played.js`, then I added some functionality on opening the modal by adding a hidden input named `playlist_term`, which contains the value of `term`. I also updated the option values of `term` to `short_term`, `medium_term`, and `long_term` to match the values of parameter `time_range` in `spotify_current_user_top_tracks()` function. 
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
