@@ -285,3 +285,15 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 **Links**
 * [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
 
+### Day 21: February 24, 2019
+
+**Today's Progress**:
+* Continued ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* I haven't worked on learning Flask yet, and at the time I am on chapter 6. I am on chapter 8, and had trouble on running `flask test`, which the program showed an error that says `ERROR: No such command as 'test'`. Then when I checked on my copy of `flasky` that I had just cloned from [here](https://www.github.com/miguelgrinberg/flasky), and found out that my `email.py` and my `forms.py` was empty.
+* I also had a trouble dealing with password hashing. When I ran `flask shell`, then I ran `u = User()`, an error appeared as `NameError` which points the `User()`. I came up with the solution, with `from app.models import User`. 
+* I might not go through the [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist), although I might work on recommendations feature, and might focus on front-end programming for myself.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
