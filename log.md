@@ -297,3 +297,14 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 22: February 25, 2019
+
+**Today's Progress**:
+* Continued ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com) 
+
+**Thoughts:**
+* I am currently working on this error `TypeError: '<' not supported between instances of 'str' and 'int'` that is bothering on my program. I'm still on chapter 8, on creating login forms.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
