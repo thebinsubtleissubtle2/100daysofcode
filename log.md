@@ -308,3 +308,21 @@ Now I am going to work on dropdown menu bar and continue working on playlists.
 
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 23: February 26, 2019
+
+**Today's Progress**:
+* Still on chapter 8 on ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* Shit. I took another exam, eh? It's on front-end anyways. I walked out because 1) I never liked waiting for another 2 hours and 2) I need to finish this Flask book. 
+* I encountered a problem in which my program doesn't log in and returns a blank page. I tried to comment this piece of code that links to my homepage.
+`next = request.args.get('next')
+ if next is None or not next.startswith('/'):
+    next = url_for('main.index')`
+Then nothing happened. I tried to google this problem, then I went [here](https://github.com/miguelgrinberg/flasky/commit/80da3d33e64a998bfc3481d3e63a0d04ae5364b1), then I forgot to put `UserMixin` on `class User(UserMixin, db.Model):` on `app/models.py`.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+
