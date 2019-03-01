@@ -325,4 +325,15 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 24: March 1, 2019
+
+**Today's Progress**:
+* Having trouble with user registration (["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)).
+
+**Thoughts:**
+* New day, new problem. When I click the register button on my registration form in `app/templates/register.html`, my program returns a blank page. I can't see the error here besides `TypeError: '<' not supported between instances of 'str' and 'int'`. It should send the confirmation email to the email address the user has given. 
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
 
