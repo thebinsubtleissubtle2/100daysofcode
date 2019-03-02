@@ -336,4 +336,31 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 25: March 2, 2019
+
+**Today's Progress**:
+* Finished chapter 8 of (["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)).
+* Did some [codewars](https://www.codewars.com)
+
+**Thoughts:**
+* Yesterday I've received an email for an interview. I made the(ir) cut! I did some Java and (more) Python on Codewars. I solved some problems including the CamelCase method problem. I did that in `Python`, and here's what I've came up:
+`def camel_case(string):
+    if string == "":
+        return string
+    arr = string.split(" ")
+    for k, v in enumerate(arr):
+        if v == "":
+            arr.pop(k)
+        arr[k - 1] = arr[k - 1].capitalize()
+    return "".join(arr)`
+
+    More [here](https://www.codewars.com/users/thebinsubtleissubtle/completed_solutions).
+
+* On Flask tutorial, I only did copy the book's source code, because the program returns an `smtplib` error everytime I send the confirmation email to the email address the user has provided.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+* [Codewars](https://www.codewars.com/users/thebinsubtleissubtle)
+
+
 
