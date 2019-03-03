@@ -363,4 +363,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 * [Codewars](https://www.codewars.com/users/thebinsubtleissubtle)
 
 
+### Day 26: March 3, 2019
+
+**Today's Progress**:
+* Finished chapter 9 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* Not really much here. I'm on chapter 10 of this book, on the user's profile part. What I learned here is giving user's role to this website. The administrator can do really much everything, moderator moderates posts and comments. It's getting like reddit anyways, without the up/down vote system.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
