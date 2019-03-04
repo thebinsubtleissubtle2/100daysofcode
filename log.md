@@ -381,7 +381,7 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 
 **Thoughts:**
 * I thought the package `Faker` is only on Rails. Anyways, I've encountered an error midway through pagination, where I just forgot the `.` in `url_for('.user', username=post.author.username)`, and the `_macros.html`, where I typed `url_for(endpoint, page=pagination.page - 1, **kwargs)` instead of `url_for(endpoint, page=pagination.prev_num, **kwargs)`, my `{% endif %}` was placed before the `{% else %}`, and I've put the `class="diaabled"` (shit I'm a web developer now, I can't spell correctly on my keyboard). Submitting posts was still non-functional, as well as the search function, I believe. I might discover how to do that in this book.
-* Damn, interview tomorrow, just damn. I hate capitalism.
+* Damn, interview tomorrow, just damn. ***I hate capitalism***.
 
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
