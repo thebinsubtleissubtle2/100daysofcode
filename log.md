@@ -386,3 +386,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 28: March 6, 2019
+
+**Today's Progress**:
+* Continued chapter 11 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* One day ago, I said that submitting posts is non-functional. I thought this was actually non-functional, but then I realized, it was an error on my part. I checked the original source code and compared it to mine. I found out that instead of `post = Post(body=form.body.data, author=current_user._get_current_object())`, my program's version has `post = Post(body=form.post.data, author=current_user._get_current_object())`, and I have found out that I put `body` instead of `post` in `app/models.py`. I only finished chapter 11 for today.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
