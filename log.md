@@ -397,3 +397,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 29: March 7, 2019
+
+**Today's Progress**:
+* On chapter 12 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* Having troubles on implementing followers on the users page. When I click the followers/following button, it returns to empty page, and the user followers doesn't increase once I hit the follow button. 
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
