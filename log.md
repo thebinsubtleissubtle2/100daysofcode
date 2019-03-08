@@ -408,3 +408,15 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 30: March 8, 2019
+
+**Today's Progress**:
+* On chapter 13 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* I got the error! I successfully implemented the followers feature! I mistyped again on `app/templates/followers.html`. Instead of `{% block title %}Flasky - {{ title }} {{ user.username }}{% endblock %}`, I put `{% block title %}Flasky - {{ title }} {{ user.username }}{% enddblock %}` on the title page. I'm on chapter 13 now. Did I said it would look like reddit without the upvotes/downvotes? It looks like it!
+* Shit. I've come this far, then I just recently installed Dota 2 on my laptop. 
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
