@@ -420,3 +420,15 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 31: March 9, 2019
+
+**Today's Progress**:
+* On chapter 14 of ["Flask Web Development by Miguel Grinberg"](https://flaskbook.com)
+
+**Thoughts:**
+* I finished chapter 13 of this book. I figured out how to moderate user comments by just closing the comment section. It's just like closing an issue in Github. Now I am going to learn how to build a RESTful API using flask. 
+* My thoughts are getting shorter and shorter on my journal as my Flask project progresses. I might go again to [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist) since it is dusted for 3 weeks now. I haven't touched anything on this project since I continued on my tutorials. I might play around APIs again on my next Flask project. Maybe how to improve on Dota 2 I think? Or maybe get something from [here](https://github.com/toddmotto/public-apis).
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
