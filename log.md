@@ -432,3 +432,15 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 32: March 11, 2019
+
+**Today's Progress**:
+* Still on chapter 14 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* Had only a few today. I only managed to implement token-based authentication and by going to `http://localhost:5000/api/v1/tokens/`, finally I have to see my token in my browser.
+* I played 3 games today (2 of them are ranked). All of them lost. What the hell?
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
