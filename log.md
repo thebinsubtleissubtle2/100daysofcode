@@ -444,3 +444,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 33: March 12, 2019
+
+**Today's Progress**:
+* Still on chapter 14 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* I am really, really sorry, but it's short again. I am having trouble earlier implementing the resource endpoints on `api/posts.py`, then when I ran the server, the browser returns a blank page. It is solved now because my `api/users.py` doesn't exist.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
