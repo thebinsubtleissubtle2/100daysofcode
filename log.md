@@ -455,3 +455,24 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 34: March 13, 2019
+
+**Today's Progress**:
+* Finished chapter 14 of ["Flask Web Development" by Miguel Grinberg](https://flaskbook.com)
+
+**Thoughts:**
+* I finally implemented the API module of this book. I tested modules using `httpie`, I posted blog posts, comment to blog posts, navigate the user's timeline using CLI commands of `http --json --auth <email>:<password> <GET|POST|PUT> http://127.0.0.1:5000/api/v1/<endpoint>`. I can implement this on any websites/projects and get the content of all posts and user's content through the program's API. I understand now how API works. 
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 35: March 15, 2019
+
+**Today's Progress**:
+* On chapter 15 of ["Flask Web Development"](https://flaskbook.com)
+
+**Thoughts:**
+* I learned from this chapter that writing test scripts on the client side is more efficient than testing it out manually through the server. I've encountered an error earlier on `tests/test_client.py`. I tried using `self.app.testing = True`, but it didn't work. Then I found out that instead of `def setUp(self)`, I mistyped again to `def setup(self)`. What is wrong with this? Should it really be `setup`?
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
