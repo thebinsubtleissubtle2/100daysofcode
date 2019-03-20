@@ -476,3 +476,27 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 36: March 16, 2019
+
+**Today's Progress**:
+* Finished chapter 15 of ["Flask Web Development"](https://flaskbook.com)
+
+**Thoughts:**
+* This book suggests testing on Chrome, so I installed the chrome driver. And my chrome updated to Chrome 73, so I installed Chrome Driver for Chrome 73. Now I learned that without opening the browser manually, my test scripts automatically tests all of the moduels, including the admin page, and anonymous user. 
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+### Day 37: March 20, 2019
+
+**Today's Progress**:
+* Finished chapter 16 of ["Flask Web Development"](https://flaskbook.com)
+
+**Thoughts:**
+* My source code returns blank page again. I don't understand why it keeps on displaying blank pages on blueprints. So, for the second time, I copy-pasted the source code from github to mine, and migrated the database. I'll say it's harder to debug on blueprints because it always returns `TypeError: '<' not supported between instances of 'str' and 'int'` and blank page on my browser. Even though the original says `@main.after_app_request` and `@main.route('/shutdown')` decorator should be on top, it does not work.
+* I just finished chapter 16 of this book. It's on performance and profiling. I had registered my Heroku account because the next chapter will focus on deployment.
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
