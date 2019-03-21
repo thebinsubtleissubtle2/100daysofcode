@@ -500,3 +500,16 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
+### Day 38: March 21, 2019
+
+**Today's Progress**:
+* On chapter 17 of ["Flask Web Development"](https://flaskbook.com)
+
+**Thoughts:**
+* Had problems earlier accessing my deployed app to heroku. It always shows `application error` whenever it loads. I deleted and recreated the app in my client, but it doesn't work. Then I realized I didn't include the `Procfile`. So I pushed it to my heroku `.git` (`git push heroku master`), then deployed it again using `heroku run flask deploy`. My website crashed! It is [here](nooblog.herokuapp.com). I'm already finding alternatives to heroku because I ran a lot of problems. Maybe Github pages?
+
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+
+
