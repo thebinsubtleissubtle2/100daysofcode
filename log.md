@@ -513,3 +513,18 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 
 
+### Day 39: March 22, 2019
+
+**Today's Progress**:
+* Still on chapter 17 of ["Flask Web Development"](https://flaskbook.com)
+
+**Thoughts:**
+* I solved my Heroku problems, but run on another problem on Docker. I figured out the problem on heroku and my Flask, and Werkzeug versions are not the latest, so I changed it to `Flask==1.0.2` and `Werkzeug==0.14.1`.
+* Now on the Docker problem, I can't run my application. It says `docker: Error response from daemon: container 4845a609c92d05abf9aa15b97817b3e3a57fcbf9b6e79f086a96f5f2822bc33f encountered an error during CreateProcess: failure in a Windows system call: Unspecified error (0x80004005)`. I googled this and I found different problems like `No hypervisor is present on this system`, or `The handle is invalid. (0x6)`. I switched my containers to Linux, no avail, it says `Not enough memory space to run`.
+
+* The Nooblog website is [online](https://nooblog.herokuapp.com)!
+
+**Links**
+* [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
+* [Nooblog](https://nooblog.herokuapp.com)
+
