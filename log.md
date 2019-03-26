@@ -528,3 +528,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 * [Flask Tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial)
 * [Nooblog](https://nooblog.herokuapp.com)
 
+### Day 40: March 26, 2019
+
+**Today's Progress**:
+* Started rewriting [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist) in Flask.
+
+**Thoughts:**
+* Yeah boys. Back to developing topPlaylist again. I am working on Flask's version of this project, and so far it was really different from the previous one. For the old one, I'm currently working on recommendations. For the new ones, I am making cleaner by applying concepts that I learned from my [Flask tutorial](https://www.github.com/thebinsubtleissubtle2/flask_tutorial).
+
+**Links**
+* [TopPlaylist2](https://www.github.com/thebinsubtleissubtle2/topPlaylist2)
+
