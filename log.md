@@ -539,3 +539,14 @@ Then nothing happened. I tried to google this problem, then I went [here](https:
 **Links**
 * [TopPlaylist2](https://www.github.com/thebinsubtleissubtle2/topPlaylist2)
 
+### Day 41: March 28, 2019
+
+**Today's Progress**:
+* Started working on recommendations.
+
+**Thoughts:**
+* I made a REPL code for my recommendations feature on Spotipy. I gathered all the URLs from the top tracks, artists, and put them into separate lists. I also called `recommendation_genre_seeds()` function to get all the genres provided by Spotify. Then the results are `warning:expected id of type %s but found type %s %s` and `requests.exceptions.HTTPError: 414 Client Error: Request-URI Too Long for url`. It's in the docs guys, why not update the docs?
+
+**Links**
+* [TopPlaylist](https://www.github.com/thebinsubtleissubtle2/topPlaylist)
+
